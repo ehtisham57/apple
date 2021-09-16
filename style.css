@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed !important;
+    background: #161819 !important;
+    max-height: 50px;
+    width: 100%;
+
+}
+.navbar ul li{
+    color:white;
+    text-align: center;
+}
+.navbar ul li a,.navbar ul li a svg{
+    color:white;
+    margin-left: 30px;
+    text-align: center;
+}
+.navbar ul li a:hover,.navbar ul li a svg:hover{
+    background:white;
+    color: #161819;
+    transition: .8s;
+    margin-left: 30px;
+    text-align: center;
+}
+/* ----------------------------------------------section 1------------------------------------------ */
+.main{
+    min-width: 200px;
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: 1500px;
+    background: url(./images/apple1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.maintext{
+    color: ivory;
+    text-align: center;
+    padding-top: 800px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    
+
+}
+.maintext h1{
+    color: ivory;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+.maintext p{
+    margin: 30px 170px;
+    color: ivory;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.maintext button{
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    background: none;
+    color: ivory;
+    border-radius: 30px;
+}
+.maintext button:hover{
+    background: ivory;
+    color: black;
+}
+
+
+/* ----------------------------------------------section 2------------------------------------------ */
+.row{
+    width: 100% !important;
+    text-align: center; 
+}
+.row h1{
+    padding-top: 200px;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.sec2{
+    height: 100vh;
+}
+.row button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.row button:hover{
+    transition: .1s;
+    color: aliceblue;
+    background: black;
+
+}
+/* -- ---------------------section3--------------------------------------*/
+.iphone{
+    background: #34283c;
+}
+.row span button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: 2px solid;
+    color: whitesmoke;
+    border-radius: 30px;
+}
+.row span button:hover{
+    transition: .1s;
+    color: black;
+    background: whitesmoke;
+}
+.iph{
+    color: whitesmoke;
+    padding-top: 200px;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.ipho{
+    color: ivory;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* -- ---------------------section4------------------------------------ */
+.sec4{
+    text-align: center;
+    background: #f5f5f7;
+}
+.sec4 img{  
+    margin-top: 120px;
+}
+.sec4 h1{
+    text-align: center;
+    margin: 30px 200px;
+}
+.sec4 p{
+    text-align: center;
+    color:rgba(0, 0, 0, .5);
+    margin-top: 70px;
+}
+
+.sec4 button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: 2px solid;
+    border-radius: 30px;
+
+}
+.sec4 button:hover{
+    transition: .1s;
+    color: whitesmoke;
+    background: black;
+    
+}
+
+.watch img{
+    max-width: 100%;
+    min-width: 200px;
+}
+
+/* -- ---------------------section5-------------------------------------- */
+.ipadmini{
+    min-width: 100px;
+    max-width: 500px;
+    margin-top: 200px;
+}
+.minilogo{
+    margin-top: 300px;
+}
+.miniheading{
+    margin: 30px 0;
+    margin-left: 80px !important;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/*-- ---------------------section6--------------------------------------*/
+.sec6{
+    max-width: 100%;
+    min-width: 200px;
+    min-height: 100vh;
+    text-align: center;
+    background: #f5f5f7;
+}
+.ipadpro{
+    width: 500px;
+    margin-top: 150px;
+    height: 700px;
+    margin-bottom: 150px;
+}
+/* ------------------------------Footer=-------------------------- */
+
+.footer{
+    background: black;
+}
+.footer h5{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.footer ul li{
+    margin-top: 2px;
+    margin-bottom: 30px;
+    text-align: start;
+}
+.footer ul h5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.footer h5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.footer ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
+.footer ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    transition: .1s;
+    border-bottom: 1px solid rgb(255, 249, 249) ;
+}
+
+.icondown{
+    margin-top: 20px;
+}
+.icondown p{
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+}
+.icondown a{
+    color: rgba(36, 36, 180, 0.644);
+    text-decoration: none;
+    font-size: 15px;
+}
+.Copy a{
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+    font-size: 15px;
+}
+.Copy a:hover{
+    color: rgb(240, 240, 240);
+    border-bottom: 1px solid  rgb(240, 240, 240);
+} 
